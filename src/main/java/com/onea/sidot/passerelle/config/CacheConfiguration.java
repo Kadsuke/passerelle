@@ -51,6 +51,28 @@ public class CacheConfiguration {
             createCache(cm, com.onea.sidot.passerelle.domain.User.class.getName());
             createCache(cm, com.onea.sidot.passerelle.domain.Authority.class.getName());
             createCache(cm, com.onea.sidot.passerelle.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.onea.sidot.passerelle.domain.Prevision.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.FicheSuiviOuvrage.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.SourceApprovEp.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.TypeHabitation.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.ModeEvacuationEauUsee.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.ModeEvacExcreta.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Prefabricant.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Macon.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.NatureOuvrage.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Annee.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.TypeCommune.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Region.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Province.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Commune.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Localite.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Secteur.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Section.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Lot.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Parcelle.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.DirectionRegionale.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.CentreRegroupement.class.getName());
+            createCache(cm, com.onea.sidot.passerelle.domain.Centre.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
